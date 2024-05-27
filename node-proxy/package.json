@@ -1,0 +1,14 @@
+{
+  "name": "node-proxy",
+  "version": "1.0.0",
+  "description": "This is to create a kubernetes proxy for an application which intercepts all request and sends to opa for authorization. Based on the authorization it will send the request to the application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage"
+  },
+  "author": "Arijit Mazumdar",
+  "license": "MIT",
+  "dependencies": {
+    "@build-security/opa-express-middleware": "^0.0.3"
+  }
+}
